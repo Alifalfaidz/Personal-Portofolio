@@ -1,0 +1,201 @@
+:root{
+    --mainColor : #343A4B;
+    --secondaryColor : #333645;
+    --acsentColor : #EA940C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section {
+    color: white;
+    /* font-size: 1rem; */
+}
+/* Navbar */
+
+.nav-link.active{
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark{
+    background-color: var(--secondaryColor) !important;
+    z-index: 50;
+    transition: 0.5s ease;
+
+}
+/* End Navbar */
+
+/* Hero */
+.color-acsent{
+    color: var(--acsentColor);
+}
+
+#hero{
+    color: white;
+    min-height: 100vh;
+    margin-bottom: 80px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 75px;
+}
+
+#hero h1{
+    /* font-size: 4rem; */
+    /* font-size: clamp(1.125rem, 0.3913rem + 3.2609vw, 3rem); */
+    font-size: clamp(1.5rem, 0.8587rem + 1.7391vw, 2.25rem);
+    /* font-size: clamp(0.8rem, 0.5109rem + 2.1739vw, 2.25rem); */
+
+    /* font-weight: 100; */
+}
+
+#hero h2{
+    font-weight: 300;
+    /* font-size: clamp(1.25rem, 0.5163rem + 3.2609vw, 3.125rem); */
+    /* font-size: clamp(1,9rem, 0.8641rem + 2.8261vw, 3.125rem); */
+    font-size: clamp(2rem, 1.5109rem + 2.1739vw, 3.25rem);
+    /* font-size: clamp(1.5rem, 0.8641rem + 2.8261vw, 3.125rem); */
+}
+
+#hero p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+#hero img {
+    max-width:450px;
+    width: 100%;
+    height: auto;
+}
+
+
+/* CTA */
+.btn-custom1{
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.btn-custom1{
+    font-weight: bold;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0,9);
+}
+
+.cv{
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.sosial-icon svg{
+    margin-right: .9em;
+    margin-bottom: 10px;
+}
+
+.sosial-icon-2 svg{
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+/* End Hero */
+
+/* About */
+hr{
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about{
+    margin-top: 80px;
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+}
+
+#about h1{
+    text-align: center;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.hero {
+    padding-top: 150px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+/* End About */
+
+/* skill */
+#skill{
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+    padding-top: 80px;
+}
+
+#skill img{
+    width: 13%;
+    margin: 10px;
+}
+
+/* End skill */
+
+/* Sertifikat */
+
+#sertifikat{
+    margin-top: -170px;
+    /* padding: 270px; */
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+}
+
+#sertifikat p,a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#sertifikat img{
+    width: 100%;
+    /* padding: 10px; */
+}
+/* End sertifikat */
+
+
+/* Galeri Portofolio */
+
+
+.card {
+    border-color: #2A2A2A; 
+    border-width: 3px; 
+    border-style: solid;
+}
+
+
+
+/* End Galeri Portofolio */

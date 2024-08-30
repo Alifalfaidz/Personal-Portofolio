@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+    #hero p {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #hero img {
+        width: 100%;
+        max-width: 300px; /* atau ukuran yang Anda inginkan */
+        margin-bottom: 2rem;
+    }
+    .hero-image {
+        max-width: 70%; /* Anda bisa menyesuaikan persentase ini */
+        float: right;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    
+    #sertifikat img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .btn btn-custom1{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+}
